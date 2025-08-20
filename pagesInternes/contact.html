@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <header>
+    <!-- logo -->
+     <a href="/index.html"><img id="logo" src="/images/logo.png" alt="logo"></a>
+    <!-- menu -->
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/danses.html">Danses</a>
+      <a href="gallery.html">Galerie</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+<main>
+  <h2 id="form-title">Contact</h2>
+  <div class="contact-container">
+    
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.8446857924087!2d2.417506276303602!3d48.82302477132735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e672facbcefb53%3A0xd6bed7d376d2c5da!2s60%20Av.%20du%20Mar%C3%A9chal%20de%20Lattre%20de%20Tassigny%2C%2094410%20Saint-Maurice!5e0!3m2!1sfr!2sfr!4v1755634161713!5m2!1sfr!2sfr" 
+        width="400" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <div class="formulaire">
+      <form>
+        <div id="contact">
+          <label for="name">Votre prénom: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+          <label for="lastName">Votre nom: </label>
+          <input type="text" name="lastName" id="lastName" required />
+        </div>
+        <div>
+          <label for="email">Votre email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+    <label for="cours">Choisissez un cours :</label>
+    <select name="cours" id="cours" required>
+      <option value="">-- Sélectionnez un cours --</option>
+      <option value="bollywood">Bollywood</option>
+      <option value="bharatanatyam">Bharatanatyam</option>
+      <option value="kathak">Kathak</option>
+      <option value="bhangra">Bhangra</option>
+      <option value="autre">Autre</option>
+    </select>
+  </div>
+        <div>
+          <label for="msg">Votre message: </label>
+          <textarea name="msg" id="msg"rows="10"></textarea>
+        </div>
+        <div class="form-example">
+          <button type="submit">Envoyer</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+  
+<footer>
+    <div id="socialMedia">
+      <a href="https://www.facebook.com/" target="_blank"><img src="/images/fb_360.png" alt="facebook"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="/images/insta_360.jpg" alt="instagram"></a>
+      <a href="https://www.tiktok.com/" target="_blank"><img src="/images/tiktok_360.png" alt="tiktok"></a>
+    </div>
+    <div id="adresse">
+      <img src="/images/local.jpg" alt="local">
+      <p> 60 Av. du Maréchal de Lattre de Tassigny
+</p>
+    </div>
+    <div id="copyRight">
+      <p> &copy;Khedidja CHAABANE ~ 2025</p>
+    </div>
+
+  </footer>
+</body>
+
+</html>

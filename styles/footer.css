@@ -1,0 +1,35 @@
+footer {
+    padding: 15px;
+    height: auto;
+    width: 100%;
+    margin: 10px auto 0;
+    padding: 5px 10px ;
+    background-color: #2B2E40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 13px;
+    text-align: center;
+}
+
+#socialMedia img {
+    width: 35px;
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+
+#adresse {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    align-items: center;
+    text-align: center;
+}
+
+#adresse img {
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
